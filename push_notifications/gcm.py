@@ -134,7 +134,7 @@ def _cm_send_request(
 			if value_from_kwargs:
 				notification_payload[key] = value_from_kwargs
 		if notification_payload:
-			payload["notification"] = notification_payload
+			payload["notification_data"] = notification_payload
 
 	if data:
 		payload["data"] = data
